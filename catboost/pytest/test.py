@@ -109,6 +109,7 @@ def test_queryrmse_newton_gradient(boosting_type, dev_score_calc_obj_block_size)
 
 @pytest.mark.parametrize('boosting_type', BOOSTING_TYPE)
 def test_pool_with_QueryId(boosting_type):
+    assert 0
     output_model_path = yatest.common.test_output_path('model.bin')
     output_eval_path = yatest.common.test_output_path('test.eval')
     cmd = (
